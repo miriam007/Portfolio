@@ -1,3 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+header {
+  text-align: center;
+  padding-top: 50px;
+  width:1000px;
+  height: 500px;
+}
+.headerpic img {
+  width:1000px;
+  height: 500px;
+}
+.myName {
+  text-align: center;
+  padding-top: 30px;
+  font-family: 'Poiret One', cursive;
+}
+.projectHeading {
+  text-align: center;
+}
+.projectPic img {
+  width: 400px;
+  height: 300px;
+}
+.projectText {
+  width: 400px;
+  height: 150px;
+  background-color:red;
+}
 .App {
   text-align: center;
 }
