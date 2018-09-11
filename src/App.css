@@ -14,8 +14,8 @@ header {
   padding-top: 30px;
   font-family: 'Poiret One', cursive;
 }
-.projectHeading {
-  text-align: center;
+.projectTitle {
+  text-decoration: underline overline dotted red;
 }
 .projectPic img {
   width: 400px;
@@ -25,7 +25,24 @@ header {
   width: 400px;
   height: 150px;
   background-color:red;
+  text-align: center;
 }
+.contact {
+  width: 400px;
+  height: 400px;
+  background-image: url("https://cdn.pixabay.com/photo/2017/08/25/13/36/code-geek-2680204_960_720.png");
+  background-size: 400px 400px;
+  background-position: center;
+}
+.projects {
+  align-content: center;
+}
+.projectTitle {
+  text-align: center;
+}
+
+
+
 .App {
   text-align: center;
 }
