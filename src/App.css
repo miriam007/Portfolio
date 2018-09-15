@@ -6,25 +6,33 @@ header {
   height: 500px;
 }
 .headerpic img {
-  width:1000px;
-  height: 500px;
+  width: 700px;
+  height: 1000px;
+}
+.headerFlexContainer {
+  display: flex;
+  flex-direction: column;
 }
 .myName {
   text-align: center;
-  padding-top: 30px;
   font-family: 'Poiret One', cursive;
+  font-size: 50px;
+  text-align: right;
+  padding-right: 300px;
 }
 .projectTitle {
   text-decoration: underline overline dotted red;
 }
 .projectPic img {
   width: 400px;
-  height: 300px;
+  height: 400px;
+  padding-left: 60px;
 }
 .projectText {
-  width: 400px;
+  width: 550px;
   height: 150px;
-  background-color:red;
+  background-color:#619be7;
+  border-radius: 25px;
   text-align: center;
 }
 .contact {
@@ -32,15 +40,28 @@ header {
   height: 400px;
   background-image: url("https://cdn.pixabay.com/photo/2017/08/25/13/36/code-geek-2680204_960_720.png");
   background-size: 400px 400px;
-  background-position: center;
 }
-.projects {
-  align-content: center;
+.rowOfProjects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.bottomRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.bottomRow input {
+  width: 400px;
+  height: 300px;
 }
 .projectTitle {
   text-align: center;
 }
-
+.addButton {
+  background-color: red;
+  border-radius: 25px;
+}
 
 
 .App {
