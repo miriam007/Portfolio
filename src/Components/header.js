@@ -4,9 +4,9 @@ class Header extends Component {
     render() {
       return (
         <div className='headerFlexContainer'>
-          <h1>{this.props.title}</h1>
+          <h1 className='headerTitle'>{this.props.title}</h1>
           <div className="myName">{this.props.name}</div> 
-          <img className="headerPic" alt="girl at computer" src={this.props.image}>
+          <img className="headerPic" alt="computer" src={this.props.image}>
           </img>       
         </div>
       );

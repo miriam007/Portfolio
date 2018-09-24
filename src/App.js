@@ -38,13 +38,13 @@ render() {
         <Header
         title='Welcome to the portfolio of'
         name='Miriam Yazdanpanahi'
-        image='https://cdn.pixabay.com/photo/2018/08/15/09/52/programmer-3607627_960_720.png'
+        image='https://images.unsplash.com/photo-1438262267532-2db13fcceca2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=018c3ebf19e445bdba1d7dc45055284f&auto=format&fit=crop&w=750&q=80'
         />
         </div>
         <div className='rowOfProjects'>
         <Project 
           title='Curriculum Vitae'
-          a href='https://miriam007.github.io/web-workbook/01week/resume/' image='https://cdn.pixabay.com/photo/2017/05/09/00/15/resume-2296951_960_720.png'
+          image='https://cdn.pixabay.com/photo/2017/05/09/00/15/resume-2296951_960_720.png'
           text='This is the description of project 1.'
         />
         <Project 

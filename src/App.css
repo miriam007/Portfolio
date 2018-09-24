@@ -5,9 +5,12 @@ header {
   width:1000px;
   height: 500px;
 }
-.headerpic img {
-  width: 700px;
-  height: 1000px;
+.headerPic {
+  width: 1500px;
+  height: 700px;
+}
+.headerTitle {
+  margin-left: 50px;
 }
 .headerFlexContainer {
   display: flex;
@@ -59,7 +62,7 @@ header {
   text-align: center;
 }
 .addButton {
-  background-color: red;
+  background-color: #e26559;
   border-radius: 25px;
 }
 
